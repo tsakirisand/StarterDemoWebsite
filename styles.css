@@ -39,8 +39,8 @@ html{scroll-padding-top:108px}
 @media(prefers-reduced-motion:reduce){.cafe-header nav a::after{transition:none}.cafe-highlight-card:hover,.cafe-button:hover{transform:none}}
 @media(max-width:760px){
   .cafe-menu-toolbar{gap:10px}
-  .cafe-menu-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:7px;overflow:visible}
-  .cafe-menu-filters button{min-height:40px;padding-inline:6px;font-size:10px;letter-spacing:0}
+  .cafe-menu-filters{display:flex;flex-direction:column;width:100%;gap:7px;overflow:visible}
+  .cafe-menu-filters button{width:100%;min-height:40px;padding-inline:12px;text-align:left;font-size:10px;letter-spacing:0}
   .cafe-menu-count{align-self:flex-end;font-size:9px}
   .cafe-menu-item{min-height:84px;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:11px 0}
   .cafe-menu-copy>span{font-size:8px}
