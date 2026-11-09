@@ -38,6 +38,10 @@ html{scroll-padding-top:108px}
 @media(max-width:390px){.cafe-header{width:100%;padding-inline:12px}}
 @media(prefers-reduced-motion:reduce){.cafe-header nav a::after{transition:none}.cafe-highlight-card:hover,.cafe-button:hover{transform:none}}
 @media(max-width:760px){
+  .cafe-header{justify-content:flex-start;gap:10px}
+  .cafe-brand{margin-right:auto}
+  .cafe-header-cta{order:2;flex:none;margin-left:0}
+  .cafe-mobile-toggle{order:3;flex:none}
   .cafe-menu-toolbar{gap:10px}
   .cafe-menu-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:7px;overflow:visible}
   .cafe-menu-filters button{min-height:40px;padding-inline:6px;font-size:10px;letter-spacing:0}
